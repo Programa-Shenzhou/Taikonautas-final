@@ -232,15 +232,15 @@
                         <dl>
                             <dt>Créditos:</dt>
                             <dd>
-                                Infografía digital desarrollada por <a href="https://github.com/CamiAzocar" class="link-light">Camila Azócar</a>, <a href="https://github.com/JJdimter" class="link-light">Jean Dimter</a>, <a href="https://github.com/Dennisff" class="link-light">Dennise Freymuth</a>,
-                                <a href="https://github.com/valenunez6" class="link-light">Valentina Nuñez</a>.
+                                Infografía digital desarrollada por <a href="https://github.com/CamiAzocar" class="link-warning">Camila Azócar</a>, <a href="https://github.com/JJdimter" class="link-warning">Jean Dimter</a>, <a href="https://github.com/Dennisff" class="link-warning">Dennise Freymuth</a>,
+                                <a href="https://github.com/valenunez6" class="link-warning">Valentina Nuñez</a>.
                             </dd>
                         </dl>
                         <dl>
                             <dt>Fuentes de información:</dt>
                             <dd>
-                                La información presentada se apoya en consultas a <a href="https://es.wikipedia.org/wiki/Programa_Shenzhou" class="link-light">Shenzhou</a>, <a href="https://es.wikipedia.org/wiki/Shenzhou_9" class="link-light">Shenzhou 9</a>,
-                                <a href="https://es.wikipedia.org/wiki/Astronauta" class="link-light">Astronauta</a>, <a href="https://es.wikipedia.org/wiki/Estaci%C3%B3n_espacial_Tiangong" class="link-light">Tiangong</a>, <a href="https://es.wikipedia.org/wiki/Programa_Chino_de_Exploraci%C3%B3n_Lunar" class="link-light">Chang'e</a>, <a href="https://danielmarin.naukas.com/2020/12/17/la-change-5-regresa-a-la-tierra-con-muestras-de-la-luna/" class="link-light">Trayectoria Chang'e 5</a>, <a href="https://elpais.com/elpais/2019/01/03/media/1546545808_300836.html" class="link-light">Alunizaje Chang'e 4</a>, <a href="https://es.wikipedia.org/wiki/Chang%27e_3" class="link-light">Chang'e 3</a>, <a href="https://es.wikipedia.org/wiki/Larga_Marcha_(familia_de_cohetes)" class="link-light">Larga Marcha</a>.
+                                La información presentada se apoya en consultas a <a href="https://es.wikipedia.org/wiki/Programa_Shenzhou" class="link-warning">Shenzhou</a>, <a href="https://es.wikipedia.org/wiki/Shenzhou_9" class="link-warning">Shenzhou 9</a>,
+                                <a href="https://es.wikipedia.org/wiki/Astronauta" class="link-light">Astronauta</a>, <a href="https://es.wikipedia.org/wiki/Estaci%C3%B3n_espacial_Tiangong" class="link-warning">Tiangong</a>, <a href="https://es.wikipedia.org/wiki/Programa_Chino_de_Exploraci%C3%B3n_Lunar" class="link-warning">Chang'e</a>, <a href="https://danielmarin.naukas.com/2020/12/17/la-change-5-regresa-a-la-tierra-con-muestras-de-la-luna/" class="link-warning">Trayectoria Chang'e 5</a>, <a href="https://elpais.com/elpais/2019/01/03/media/1546545808_300836.html" class="link-warning">Alunizaje Chang'e 4</a>, <a href="https://es.wikipedia.org/wiki/Chang%27e_3" class="link-warning">Chang'e 3</a>, <a href="https://es.wikipedia.org/wiki/Larga_Marcha_(familia_de_cohetes)" class="link-warning">Larga Marcha</a>.
                             </dd>
                         </dl>
                         <h4 class="border-top pt-4 my-5 fs-5">Historias relacionadas</h4>
@@ -271,7 +271,7 @@
                 const listado = document.getElementById("relacionadas");
                 data.forEach((x, i) => {
                     if (i != 7) {
-                        listado.innerHTML += '<li class="position-relative"><dl><dt>' + x.title + ': ' + x.subtitle + '</dt><dd class="small">' + x.short + ' <a href="' + x.url + '" class="fst-normal link-light stretched-link">[ver más]</a></dd><dl>';
+                        listado.innerHTML += '<li class="position-relative"><dl><dt>' + x.title + ': ' + x.subtitle + '</dt><dd class="small">' + x.short + ' <a href="' + x.url + '" class="fst-normal link-info stretched-link">[ver más]</a></dd><dl>';
                     }
                 });
             }
